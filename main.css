@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(31, 30, 30);
+}
+.landing{
+    background-image:linear-gradient(rgba(15, 0, 44, 0.453),rgba(0, 0, 49, 0.618));
+    padding-top:30px;
+}
+.start{
+    background-image: url('start.png');
+    width: 500px;
+    height:400px;
+    margin-top: 50px;
+    padding-top: 150px;
+    color: coral;
+   
+}
+.navbar{
+    position: fixed;
+    overflow: hidden;
+    top: 0; 
+    width: 100%;
+}
+
+h2{
+    color: darkgrey;
+}
+
+.hrq{
+    background-color: darkgray;
+    border-top: 1px dashed;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.category{
+    padding : 50px;
+    text-align: center;
+    color:white;
+}
+.card-img-top{
+    padding:10px;
+}
+.card-body{
+    background-color: darkslategrey;
+}
+.card-title,.card-text{
+    text-align:center;
+}
+.c-button{
+    border-color: darkslateblue;
+    background-color: white;
+    width:250px;
+    text-align:center;
+    font-weight: bolder;
+}
+.c-button:hover{
+    background-color: darkslateblue;
+    color:white;
+}
