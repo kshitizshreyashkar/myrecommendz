@@ -105,6 +105,9 @@ h2{
 .card-title,.card-text{
     text-align:center;
 }
+.card{
+    margin: 5px;
+  }
 .btn{
     border-color: darkslateblue;
     width:200px;
@@ -125,7 +128,17 @@ h2{
     background-color: rgb(235, 136, 70);
     color: blanchedalmond;
 }
+.foot-logo{
+    height:150px;
+    width:150px;
+}
 
+.tcolor{
+    color:black;
+}
+.card-title{
+    color:white;
+}
 @media(max-width: 480px){
 .img-logo{
     width:40px;
@@ -141,5 +154,8 @@ h2{
 .category{
     padding:30px;
 }  
-
+.foot-logo{
+    height:90px;
+    width:90px;
+}
 }
