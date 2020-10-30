@@ -153,16 +153,21 @@ h2{
     color:white;
 }
 .product{
-    margin:50px;
+    margin:10px;
 }
 h5{
     color:white;
 }
 .specs{
-    padding:20px;
+    padding:10px;
 }
 li{
     color:white;
+}
+.card-title{
+    background-color: black;
+    border-radius: 5px;
+    padding:5px;
 }
 
 @media(max-width: 480px){
