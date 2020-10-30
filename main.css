@@ -19,8 +19,13 @@ body{
     overflow: hidden;
     top: 0; 
     width: 100%;
+    z-index:9;
 }
-
+.button:hover{
+    background-color: darkslateblue;
+    color:white;
+    border: none;
+}
 h2{
     color: darkgrey;
 }
@@ -46,14 +51,25 @@ h2{
 .card-title,.card-text{
     text-align:center;
 }
-.c-button{
+.btn{
     border-color: darkslateblue;
     background-color: white;
-    width:250px;
+    width:200px;
     text-align:center;
     font-weight: bolder;
 }
-.c-button:hover{
-    background-color: darkslateblue;
-    color:white;
+
+
+@media(max-width: 480px){
+.start{
+    width: 375px;
+
+}
+h2{
+    font-size:small;
+}
+.category{
+    padding:30px;
+}  
+
 }
