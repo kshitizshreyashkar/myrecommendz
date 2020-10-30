@@ -152,6 +152,19 @@ h2{
 .card-title{
     color:white;
 }
+.product{
+    margin:50px;
+}
+h5{
+    color:white;
+}
+.specs{
+    padding:20px;
+}
+li{
+    color:white;
+}
+
 @media(max-width: 480px){
 .img-logo{
     width:40px;
